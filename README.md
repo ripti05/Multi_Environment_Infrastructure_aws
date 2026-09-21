@@ -82,4 +82,4 @@ terraform-multi-environment/
 | | Development | Production |
 |---|---|---|
 | Workspace | `dev` | `prod` |
-| EC2 Instances | 1 |
+| EC2 Instances | 1 | 3 |
