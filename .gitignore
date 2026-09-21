@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ignore all tfvars by default
+*.tfvars
+
+# But allow our academic environment configs
+!terraform.tfvars.dev
+!terraform.tfvars.prod
+
+# Logs
+crash.log
+crash.*.log
+
+# Sensitive files
+.env
+*.pem
